@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Halion'; 
+    src: url('fonts/Halion.woff');
+}
+
+@font-face {
+    font-family: 'Babel'; 
+    src: url('fonts/BabelSans.woff');
+}
+
+@font-face {
+    font-family: 'Just';
+    src: url(fonts/JUST\ Sans\ Outline\ ExBold.woff2);
+}
+
+@font-face {
+    font-family: 'Happy';
+    src: url(fonts/HappyTimeTwo.woff2);
+}
+
+@font-face {
+    font-family: 'LinB';
+    src: url(fonts/LinBiolinum_R.woff2);
+}
+
+
+body {
+    font-family: 'Babel', Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    background-image: radial-gradient(at top left, #f7f7f7, #eaeaea, #2986b1);
+}
+
+img {
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: rgb(42, 96, 154);
+    text-shadow: 0px 0px 30px white,0px 0px 30px white,0px 0px 10px #ffffff,0px 0px 10px #ffffff;
+}
+
+a {
+    color: rgb(60, 151, 136);
+}
+
+.navbar {
+    border-radius: 25px;
+    box-shadow: 0 0 50px 15px #48abe0;
+}
+
+.navbar-brand, .secthead {
+   font-family: 'Halion', Georgia, 'Times New Roman', Times, serif;
+   font-size: 2em;
+   color: rgb(42, 96, 154);
+}
+
+.nav-link {
+    color: rgb(60, 151, 136);
+}
+
+.headliner {
+    font-family: 'Halion', Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.quote {
+    font-family: 'Halion', Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+}
+
+#crystal {
+    position:absolute;
+    top: 3%;
+    left: 3%;
+    width: 10vw;
+}
+
+#stone {
+    position:absolute;
+    top: 68%;
+    left: 12%;
+    width: 20vw;
+}
+
+#grass {
+    position:absolute;
+    top: 27%;
+    left: 75%;
+    width: 20vw;
+}
+
+#spiral {
+    position:absolute;
+    top: 80%;
+    left: 62%;
+    width: 12vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        letter-spacing: 2.4ch;
+        margin: auto;
+
+    }
+
+    .navbar-toggler {
+        margin: auto;
+    }
+}
