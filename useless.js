@@ -22,3 +22,4 @@ spiral.addEventListener("click", () => {
     spiral.remove();
 });
 
+

@@ -70,30 +70,44 @@ a {
 
 #crystal {
     position:absolute;
-    top: 3%;
+    top: 11%;
     left: 3%;
-    width: 10vw;
+    width: 22vw;
 }
 
 #stone {
     position:absolute;
     top: 68%;
     left: 12%;
-    width: 20vw;
+    width: 30vw;
 }
 
 #grass {
     position:absolute;
     top: 27%;
     left: 75%;
-    width: 20vw;
+    width: 30vw;
 }
 
 #spiral {
     position:absolute;
     top: 80%;
     left: 62%;
-    width: 12vw;
+    width: 25vw;
+}
+
+#can {
+    position:absolute;
+    top: 75%;
+    left: 55%;
+    width: 40vw;
+}
+
+#garbage {
+    position:absolute;
+    top: 57%;
+    left: 10%;
+    width: 60vw;
 }
 
 @media only screen and (max-width: 600px) {
